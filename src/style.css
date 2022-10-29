@@ -55,6 +55,10 @@ body{
   main{
     padding: 57px 27px;
     color: white;
+    background-image: url("images/icons8-react-400.png"); /* TODO : find out a half react image */
+    background-repeat: no-repeat;
+    background-position: right 75%;
+    
   }
 
 .main--title{
@@ -64,7 +68,6 @@ body{
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
-    font-size: 39.06px;
   }
 
 .main--facts {
@@ -75,4 +78,9 @@ body{
    
     line-height: 19px;
     padding-block: 10px;
+}
+
+.main--facts > li::marker{
+    font-size: 1.4rem;
+    color: #61DAFB;
 }
